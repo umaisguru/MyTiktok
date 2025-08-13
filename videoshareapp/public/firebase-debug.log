@@ -1,0 +1,53 @@
+[debug] [2025-08-13T18:29:19.210Z] ----------------------------------------------------------------------
+[debug] [2025-08-13T18:29:19.227Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DAR LAPTOPS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2025-08-13T18:29:19.228Z] CLI Version:   14.11.2
+[debug] [2025-08-13T18:29:19.228Z] Platform:      win32
+[debug] [2025-08-13T18:29:19.228Z] Node Version:  v22.18.0
+[debug] [2025-08-13T18:29:19.229Z] Time:          Wed Aug 13 2025 11:29:19 GMT-0700 (Pacific Daylight Time)
+[debug] [2025-08-13T18:29:19.229Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-08-13T18:29:19.234Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2025-08-13T18:29:19.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-08-13T18:29:19.923Z] > authorizing via signed-in user (omaisahmad224@gmail.com)
+[debug] [2025-08-13T18:29:19.924Z] [iam] checking project videoshareapp-ed526 for permissions ["firebase.projects.get"]
+[debug] [2025-08-13T18:29:19.925Z] Checked if tokens are valid: false, expires at: 1754844906767
+[debug] [2025-08-13T18:29:19.925Z] Checked if tokens are valid: false, expires at: 1754844906767
+[debug] [2025-08-13T18:29:19.926Z] > refreshing access token with scopes: []
+[debug] [2025-08-13T18:29:19.929Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-08-13T18:29:19.929Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-13T18:29:20.261Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-08-13T18:29:20.262Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-08-13T18:29:20.273Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526:testIamPermissions [none]
+[debug] [2025-08-13T18:29:20.273Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526:testIamPermissions x-goog-quota-user=projects/videoshareapp-ed526
+[debug] [2025-08-13T18:29:20.274Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-13T18:29:20.403Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2025-08-13T18:29:20.404Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2025-08-13T18:29:21.057Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526:testIamPermissions 200
+[debug] [2025-08-13T18:29:21.057Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-08-13T18:29:21.060Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:21.060Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:21.060Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526 [none]
+[debug] [2025-08-13T18:29:21.282Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526 200
+[debug] [2025-08-13T18:29:21.282Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/videoshareapp-ed526 {"projectNumber":"447982823426","projectId":"videoshareapp-ed526","lifecycleState":"ACTIVE","name":"VideoShareApp","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2025-07-13T04:00:36.986864Z"}
+[info] 
+[info] === Serving from 'C:\Users\DAR LAPTOPS\Desktop\videoshareapp'...
+[info] 
+[debug] [2025-08-13T18:29:21.297Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:21.297Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:21.298Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/videoshareapp-ed526/sites 
+[debug] [2025-08-13T18:29:22.308Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/videoshareapp-ed526/sites 200
+[debug] [2025-08-13T18:29:22.309Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/videoshareapp-ed526/sites {"sites":[{"name":"projects/videoshareapp-ed526/sites/videoshareapp-ed526","defaultUrl":"https://videoshareapp-ed526.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-08-13T18:29:22.309Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:22.309Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:22.310Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526/webApps/-/config [none]
+[debug] [2025-08-13T18:29:23.085Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526/webApps/-/config 200
+[debug] [2025-08-13T18:29:23.086Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526/webApps/-/config {"projectId":"videoshareapp-ed526","appId":"1:447982823426:web:73f91eeeebbf5576d89f1b","storageBucket":"videoshareapp-ed526.firebasestorage.app","apiKey":"AIzaSyDuNPLWLiTgUN-GaMwRkBUkW8oHsLHzpsk","authDomain":"videoshareapp-ed526.firebaseapp.com","messagingSenderId":"447982823426","measurementId":"G-RKGM567ZBN"}
+[debug] [2025-08-13T18:29:23.099Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:23.100Z] Checked if tokens are valid: true, expires at: 1755113359262
+[debug] [2025-08-13T18:29:23.101Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526 [none]
+[debug] [2025-08-13T18:29:23.416Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526 200
+[debug] [2025-08-13T18:29:23.416Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/videoshareapp-ed526 {"projectId":"videoshareapp-ed526","projectNumber":"447982823426","displayName":"VideoShareApp","name":"projects/videoshareapp-ed526","resources":{"hostingSite":"videoshareapp-ed526"},"state":"ACTIVE","etag":"1_4eca0b10-2e07-4b28-b4ab-e08f4ed193f6"}
+[info] i  hosting[videoshareapp-ed526]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[videoshareapp-ed526]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [13/Aug/2025:18:29:29 +0000] "GET / HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Aug/2025:18:29:29 +0000] \"GET / HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [13/Aug/2025:18:29:37 +0000] "GET / HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [13/Aug/2025:18:29:37 +0000] \"GET / HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""}}
